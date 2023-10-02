@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- Header Section -->
+    <header class="header">
+      <nav class="nav bd_grid">
+        <div>
+          <a href="#" class="nav_logo">My portfolio</a>
+        </div>
+
+        <div class="nav_menu" id="nav_menu">
+          <ul class="nav_list">
+            <li class="nav_items">
+              <a href="#home" class="nav_link active">Home</a>
+            </li>
+            <li class="nav_items">
+              <a href="#about" class="nav_link active">About</a>
+            </li>
+            <li class="nav_items">
+              <a href="#skills" class="nav_link active">Skills</a>
+            </li>
+            <li class="nav_items">
+              <a href="#work" class="nav_link active">Works</a>
+            </li>
+            <li class="nav_items">
+              <a href="#contact" class="nav_link active">Contact</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="nav_toggle" id="nav_toggle">
+          <i class="bx bx-menu-alt-right"></i>
+        </div>
+      </nav>
+    </header>
+
+    <main class="main">
+      <!-- HOME SECTION -->
+      <section class="home bd_grid" id="home">
+        <div class="home_data" data-aos="fade-down">
+          <h1 class="home_title">
+            Helloo,<br />I'm <span class="home_title-color" id="two"><br>Bharath Adhithya</span
+            ><br /><p>Web developer/Web designer</p>
+          </h1>
+          <a href="#about" class="button"> Know more</a>
+        </div>
+
+        <div class="home_social">
+          
+      
+          <a
+            href="https://www.linkedin.com/in/bharath-adhithya/" target="_blank"
+            class="home_social-icon"
+            data-aos="fade-down"
+            data-aos-delay="300"
+            ><i class="fa-brands fa-linkedin"></i
+          ></a>
+          <a
+            href="https://github.com/bharath1102-dotcom" target="_blank"
+            class="home_social-icon"
+            data-aos="fade-down"
+            data-aos-delay="350"
+            ><i class="bx bxl-github"></i
+          ></a>
+        </div>
+
+        <div class="home_img" data-aos="fade-down" data-aos-delay="500">
+          <img src="/assets/img/my image.png" alt="">
+            <title>Me</title>
+            
+        </div>
+      </section>
+
+      <!-- ABOUT SECTION -->
+      <section class="about section" id="about">
+        <h2 class="section-title" data-aos="fade-down">About</h2>
+
+        <div class="about_container bd_grid">
+          <div class="about_img" data-aos="fade-down" data-aos-delay="50">
+           <img src="/assets/img/bpics.png" alt="">
+              <title>about</title>
+              
+          </div>
+
+          <div>
+            <h2
+              class="about_subtitle"
+              data-aos="fade-down"
+              data-aos-delay="350"
+            >
+              Here is something about me
+            </h2>
+            <p class="about_text" data-aos="fade-down" data-aos-delay="450">
+              A passionate and creative<span> front-end developer</span> and <span>UI/UX designer</span> with a specialization in React.js and Figma.<br>
+              With skills in HTML, CSS, JavaScript, Bootstrap, Sass, Git, GitHub, Adobe XD and Protopie. I am well-equipped to bring your web and design projects to life. I thrive on challenges and am always eager to explore innovative solutions to complex problems.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- SKILLS SECTION -->
+      <section class="skills section" id="skills">
+        <h2 class="section-title" data-aos="fade-down">Skills</h2>
+
+        <div class="skills_container bd_grid">
+          <div>
+            <h2
+              class="skills_subtitle"
+              data-aos="fade-down"
+              data-aos-delay="250"
+            >
+              Professional Skills
+            </h2>
+            <p class="skills_text" data-aos="fade-down" data-aos-delay="350">
+              Here are some of my major skill sets which i can work on. These skills makes me a better and creative web developer as well as a web designer.
+            </p>
+            <!-- SKILLS HTML -->
+            <div class="skills_data" data-aos="fade-right">
+              <div class="skills_name">
+                <i class="fa-brands fa-html5"></i>
+                <span class="skill_name">HTML</span>
+              </div>
+
+              <div><span class="skill_percentage"></span></div>
+
+              <div class="skill_bar skill_html"></div>
+            </div>
+
+            <!-- SKILLS css -->
+            <div class="skills_data" data-aos="fade-right" data-aos-delay="250">
+              <div class="skills_name">
+                <i class="fa-brands fa-css3-alt"></i>
+                <span class="skill_name">CSS</span>
+              </div>
+
+              <div><span class="skill_percentage"></span></div>
+
+              <div class="skill_bar skill_css"></div>
+            </div>
+
+            <!-- SKILLS JS -->
+            <div class="skills_data" data-aos="fade-right" data-aos-delay="250">
+              <div class="skills_name">
+                <i class="fa-brands fa-square-js"></i>
+                <span class="skill_name">Javascript</span>
+              </div>
+
+              <div><span class="skill_percentage"></span></div>
+
+              <div class="skill_bar skill_js"></div>
+            </div>
+
+            <!-- SKILLS UI/UX -->
+            <div class="skills_data" data-aos="fade-right" data-aos-delay="250">
+              <div class="skills_name">
+                <i class="fa-solid fa-paintbrush"></i>
+                <span class="skill_name">UI / UX design</span>
+              </div>
+
+              <div><span class="skill_percentage"></span></div>
+
+              <div class="skill_bar skill_ui"></div>
+            </div>
+
+             <!-- SKILLS react-->
+             <div class="skills_data" data-aos="fade-right" data-aos-delay="250">
+              <div class="skills_name">
+                <i class="fa-brands fa-react"></i>
+                <span class="skill_name">React js</span>
+              </div>
+
+              <div><span class="skill_percentage"></span></div>
+
+              <div class="skill_bar skill_ui"></div>
+            </div>
+
+             <!-- SKILLS bootstrap -->
+             <div class="skills_data" data-aos="fade-right" data-aos-delay="250">
+              <div class="skills_name">
+                <i class="fa-brands fa-bootstrap"></i>
+                <span class="skill_name">Bootstrap</span>
+              </div>
+
+              <div><span class="skill_percentage"></span></div>
+
+              <div class="skill_bar skill_ui"></div>
+            </div>
+
+            <!-- SKILLS Sass -->
+            <div class="skills_data" data-aos="fade-right" data-aos-delay="250">
+              <div class="skills_name">
+                <i class="fa-brands fa-sass"></i>
+                <span class="skill_name">Sass</span>
+              </div>
+
+              <div><span class="skill_percentage"></span></div>
+
+              <div class="skill_bar skill_ui"></div>
+            </div>
+
+             <!-- SKILLS figma -->
+             <div class="skills_data" data-aos="fade-right" data-aos-delay="250">
+              <div class="skills_name">
+                <i class="fa-brands fa-figma"></i>
+                <span class="skill_name">Figma</span>
+              </div>
+
+              <div><span class="skill_percentage"></span></div>
+
+              <div class="skill_bar skill_ui"></div>
+            </div>
+
+             <!-- SKILLS git github -->
+             <div class="skills_data" data-aos="fade-right" data-aos-delay="250">
+              <div class="skills_name">
+                <i class="fa-brands fa-git-alt"></i>
+                <span class="skill_name">Git and <i class="fa-brands fa-github"></i>GitHub</span>
+              </div>
+
+              <div><span class="skill_percentage"></span></div>
+
+              <div class="skill_bar skill_ui"></div>
+            </div>
+          </div>
+          
+
+          <div data-aos="fade-left" data-aos-delay="350">
+
+            <img src="/assets/img/diego-ph-fIq0tET6llw-unsplash (1).jpg" alt="">
+          </div>
+        </div>
+      </section>
+
+      <!-- WORK SECTION -->
+      <section class="work section" id="work">
+        <h2 class="section-title" data-aos="fade-down">Works</h2>
+
+        <div
+          class="work_container bd_grid"
+          data-aos="fade-down"
+          data-aos-delay="250"
+        >
+          <div class="work_img">
+            <img src="./assets/img/res.jpg" alt="" />
+            <p>Responsive restaurant website</p>
+            <a href="#prohead">View project<i class="fa-solid fa-arrow-right"></i></a>
+          </div>
+
+          <div class="work_img">
+            <a href=""><img src="./assets/img/travel.jpg" alt="" /></a>
+            <p>React js website of a travel agency</p>
+            <a href="#sec">View project<i class="fa-solid fa-arrow-right"></i></a>
+          </div>
+
+          <div class="work_img">
+            <a href=""><img src="./assets/img/abillion-F0e3AdcwVbM-unsplash.jpg" alt="" /></a>
+            <p>UI design of a food ordering app</p>
+            <a href="#third">View project<i class="fa-solid fa-arrow-right"></i></a>
+          </div>
+
+          <div class="work_img">
+            <a href=""><img src="./assets/img/case.jpg" alt="" /></a>
+            <p>UX case study of a food delivery app</p>
+            <a href="#four">View project<i class="fa-solid fa-arrow-right"></i></a>
+          </div>
+
+          
+        </div>
+      </section>
+
+
+
+      <!--projects-->
+      <h2 class="section-title" data-aos="fade-down" id="prohead">Projects</h2>
+      <section class="Projects" >
+        <div class="pro_one" id="firstpro">
+          <h2 id="head_pone">Poject description</h2>
+          <p>This is a responsive website made using HTML, CSS and javascript. The website contains a navigation bar with multiple options such as Home, About, Services, Menu and Contact. It also consists of a Sign Up button to ease the user experience Design is done with a greenish shade color to define the restauarnt's moto which is "Fresh". You can find the code in my GitHub Link. <a href="https://github.com/bharath1102-dotcom/Restaurant-website" target="_blank" id="code1">View code</a></p>
+          <h2 id="head_pone">Project Content</h2>
+          <img src="/assets/img/p11.png" alt="project"><br>
+          <img src="/assets/img/p12.png" alt="project"><br>
+          <img src="/assets/img/p13.png" alt="project"><br>
+          <img src="/assets/img/p14.png" alt="project">
+        </div>
+
+        <span id="sec"></span>
+        <h2 class="section-title" data-aos="fade-down" id="prohead2">Projects</h2>
+        <div class="pro_one" id="secpro">
+          
+          <h2 id="head_pone">Poject description</h2>
+          <p>This is a responsive website made using HTML, CSS and javascript and React js frame work. The use of a framework makes the code easier to understand and maintain. The website contains a navigation bar with multiple options such as Home, About, destiantions of the agency and a Contact page. The user experience is made in such a way to access the website soothly. You can find the code in my GitHub Link. <a href="https://github.com/bharath1102-dotcom/Tours-website" target="_blank" id="code2">View code</a></p>
+          <h2 id="head_pone">Project Content</h2>
+          <img src="/assets/img/p21.png" alt="project"><br>
+          <img src="/assets/img/p232.png" alt="project"><br>
+          <img src="/assets/img/p23.png" alt="project"><br>
+          <img src="/assets/img/p24.png" alt="project">
+        </div>
+
+        <span id="third"></span>
+        <h2 class="section-title" data-aos="fade-down" id="prohead3">Projects</h2>
+        <div class="pro_one" id="thirdpro">
+          <h2 id="head_pone">Poject description</h2>
+          <p>This is a UI design for a food ordering app made for a better user experience. And the main aim of this UI is to make the online ordering process even more easier for the user. Anybody who doesn't know to use mobile can even use this app to order the app. It is built in such a way that the user gets a massive comfort while using this app due to the very less number of steps involved and simple and clear interface. The complete UI design and the processes are being arranged below.</p>
+          <h2 id="head_pone">Project Content</h2>
+          <img src="/assets/img/f1.png" alt="project"><br>
+          <img src="/assets/img/f2.png" alt="project"><br>
+          <img src="/assets/img/f3.png" alt="project"><br>
+          <img src="/assets/img/f4.png" alt="project"><br>
+          <img src="/assets/img/f5.png" alt="project"><br>
+          <img src="/assets/img/f6.png" alt="project"><br>
+          <img src="/assets/img/f7.png" alt="project"><br>
+          <img src="/assets/img/f8.png" alt="project"><br>
+          <img src="/assets/img/f9.png" alt="project"><br>
+          <img src="/assets/img/f10.png" alt="project"><br>
+          <img src="/assets/img/figma project.png" alt="project"><br>
+
+        </div>
+
+        <span id="four"></span>
+        <h2 class="section-title" data-aos="fade-down" id="prohead4">Projects</h2>
+        <div class="pro_one" id="forthpro">
+          <h2 id="head_pone">Poject description</h2>
+          <p>This is a UX case study to improve the user experience and simplify the processes in "UBER EATS". The following are the problems associated with food ordering app. And the solutions has been discussed.  </p>
+          <h2 id="head_pone">Project Content</h2>
+          
+          <p class="para">CASE STUDY 1</p>
+          <p>PROBLEM:</p>
+          <P>This is the opening interface of the app. And you can see the number of input fields. It consists of several stages which a user would not able to understand if the user is new to mobile usage.</P>
+          <img src="/assets/img/u2.jpg" alt="project"><br>
+          <p>SOLUTION:</p>
+          <P>Tus this issue can be fixed through giving a clear and simple UI for the user through which they can easily access the pages. For example we can use the following UI instead.</P>
+          <img src="/assets/img/f51.png" alt="project" id="onef"><br>
+          
+          <p class="para">CASE STUDY 2</p>
+          <p>PROBLEM:</p>
+          <p>Here the app intimates the user to move to an other app which does not give a good user experience. The user may feel uncomfortable to use the app and may uninstall the application. This may creare a bad impression on the application.</p>
+          <img src="/assets/img/u3.jpg" alt="project"><br>
+          
+          <p class="para">CASE STUDY 3</p>
+          <p>PROBLEM:</p>
+          <P>This is the order summary interface of the app. And you can see the number of input fields. It consists of several stages which a user would not able to understand if the user is new to mobile usage.</P>
+          <img src="/assets/img/u4.jpg" alt="project"><br>
+          <p>SOLUTION:</p>
+          <P>Tus this issue can be fixed through giving a clear and simple UI for the user through which they can easily access the page and order. For example we can use the following UI instead.</P>
+          <img src="/assets/img/f81.png" alt="project" id="onef"><br>
+          
+          
+
+        </div>
+
+
+      </section>
+
+      <!-- CONTACT SECTION -->
+
+      <section class="contact section" id="contact">
+        <h2 class="section-title" data-aos="fade-down">Contact</h2>
+
+        <div class="contact_container bd_grid">
+          <form action="#" class="contact_form">
+            <input
+              type="text"
+              placeholder="Name"
+              class="control_input"
+              data-aos="fade-right"
+              data-aos-delay="250"
+            />
+            <input
+              type="mail"
+              placeholder="Email"
+              class="control_input"
+              data-aos="fade-right"
+              data-aos-delay="300"
+            />
+            <textarea
+              name=""
+              id=""
+              cols="0"
+              rows="10"
+              class="control_input"
+              data-aos="fade-right"
+              data-aos-delay="400"
+            ></textarea>
+
+            <input
+              type="button"
+              value="Send"
+              class="control_button button"
+              data-aos="fade-right"
+              data-aos-delay="450"
+            />
+          </form>
+        </div>
+      </section>
+
+
+
+      
+
+      <!-- Footer Section -->
+      <footer class="footer">
+        <p class="footer_title" data-aos="fade-down">&copy Bharath Adhithya</p>
+        <p>My Email: bharathadhithya03429@gmail.com</p>
+
+        <div class="footer_socials">
+          <a
+            href="#"
+            class="footer_icon"
+            data-aos="fade-down"
+            data-aos-delay="250"
+            ><i class="bx bxl-facebook-circle"></i
+          ></a>
+          <a
+            href="#"
+            class="footer_icon"
+            data-aos="fade-down"
+            data-aos-delay="350"
+            ><i class="bx bxl-instagram"></i
+          ></a>
+          <a
+            href="#"
+            class="footer_icon"
+            data-aos="fade-down"
+            data-aos-delay="450"
+            ><i class="bx bxl-twitter"></i
+          ></a>
+          <a
+            href="#"
+            class="footer_icon"
+            data-aos="fade-down"
+            data-aos-delay="550"
+            ><i class="bx bxl-github"></i
+          ></a>
+        </div>
+
+        <p data-aos="fade-down" data-aos-delay="650">
+          &#169; 2021 copyright all right reserved
+        </p>
+      </footer>
+    </main>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="main.js"></script>
+
+    <script>
+      AOS.init({
+        duration: 1200,
+        once: false,
+      });
+    </script>
+  </body>
+</html>
